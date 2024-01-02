@@ -1,0 +1,113 @@
+body {
+  background-image:url('img4.png');
+  background-size:cover;
+  width:100%;
+  text-align: center;
+  
+}
+
+.about-me .about-heading {
+   color:white;
+  font-weight:bold;
+  font-family:"Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight:bold;
+  text-align: center;
+  margin-left:210px;
+  padding-left:50px;
+}
+header{
+color:white;
+padding:40px 0;
+}
+nav{
+max-width:700px;
+margin:0 auto;
+display:flex;
+justify-content:space-between;
+text-items:center;
+margin-right:150px;
+}
+nav .logo{
+font-size:24px;
+padding-left:20px;
+padding-top:10px;
+}
+nav ul li{
+margin-right:10px;
+padding-right:10px;
+font-size:10px;
+}
+nav ul li:last-child{
+margin-right:0;
+font-weight:30px;
+}
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+margin-top:20px;
+}
+header{
+background-color:none;
+font-family:cursive;
+color:white;
+padding:0px;
+height:0px;
+}
+
+.about-content img {
+  height: 200px;
+  width: 150px;
+  text-align: center;
+  object-fit: cover;
+  border-radius: 50%; 
+  margin-left:250px;
+}
+.about-content p {
+  font-size:20px;
+  height:100%;
+  text-align: center;
+  width:100%;
+  color:white;
+  margin-left:150px;
+}
+.about-content a{
+	color:white;
+	text-align: center;
+}
+.skills .skills-heading {
+  font-size: 2.6rem;
+  color:white;
+  font-weight:bold;
+  font-family:"Poppins", sans-serif;
+  text-align: center;
+   padding-left:500px;
+   text-align: center;
+}
+
+.about-me .about-content {
+  display: flex;
+  flex-wrap: wrap;
+   color:#008080;
+  font-weight:bold;
+  text-align: center;
+  font-family:"Poppins", sans-serif;
+}
+
+.about-content .left-content {
+  flex-basis: 75%;
+  
+  text-align: center;
+}
+
+.about-content .right-content {
+  flex-basis: 75%;
+  text-align: center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+}
